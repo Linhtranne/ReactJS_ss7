@@ -10,7 +10,7 @@ class Book {
     }
   
     printBook(): void {
-      console.log(`**Thông tin sách**`);
+      console.log(`Thông tin sách`);
       console.log(`Tên sách: ${this.title}`);
       console.log(`Tác giả: ${this.author}`);
       console.log(`Giá bán: ${this.price}`);
